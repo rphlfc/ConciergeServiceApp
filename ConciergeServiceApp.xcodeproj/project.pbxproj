@@ -13,6 +13,15 @@
 		6496943424F5575E0056A1B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6496943324F5575E0056A1B5 /* Assets.xcassets */; };
 		6496943724F5575E0056A1B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6496943624F5575E0056A1B5 /* Preview Assets.xcassets */; };
 		6496943A24F5575E0056A1B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6496943824F5575E0056A1B5 /* LaunchScreen.storyboard */; };
+		6496944324F557850056A1B5 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6496944224F557850056A1B5 /* TabBarView.swift */; };
+		6496944524F55F260056A1B5 /* TabBarShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6496944424F55F260056A1B5 /* TabBarShape.swift */; };
+		6496944724F575080056A1B5 /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6496944624F575080056A1B5 /* NavigationView.swift */; };
+		6496944924F5751F0056A1B5 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6496944824F5751F0056A1B5 /* WelcomeView.swift */; };
+		6496944B24F575360056A1B5 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6496944A24F575360056A1B5 /* WeatherView.swift */; };
+		6496944D24F575550056A1B5 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6496944C24F575540056A1B5 /* CardView.swift */; };
+		6496945024F582220056A1B5 /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6496944E24F582210056A1B5 /* RoundedCorner.swift */; };
+		6496945124F582220056A1B5 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6496944F24F582220056A1B5 /* View.swift */; };
+		6496945324F591E20056A1B5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6496945224F591E20056A1B5 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		6496943624F5575E0056A1B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6496943924F5575E0056A1B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6496943B24F5575E0056A1B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6496944224F557850056A1B5 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		6496944424F55F260056A1B5 /* TabBarShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarShape.swift; sourceTree = "<group>"; };
+		6496944624F575080056A1B5 /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
+		6496944824F5751F0056A1B5 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		6496944A24F575360056A1B5 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		6496944C24F575540056A1B5 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		6496944E24F582210056A1B5 /* RoundedCorner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
+		6496944F24F582220056A1B5 /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		6496945224F591E20056A1B5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +58,7 @@
 		6496942124F5575C0056A1B5 = {
 			isa = PBXGroup;
 			children = (
+				6496945224F591E20056A1B5 /* README.md */,
 				6496942C24F5575C0056A1B5 /* ConciergeServiceApp */,
 				6496942B24F5575C0056A1B5 /* Products */,
 			);
@@ -59,6 +78,7 @@
 				6496942D24F5575C0056A1B5 /* AppDelegate.swift */,
 				6496942F24F5575C0056A1B5 /* SceneDelegate.swift */,
 				6496943124F5575C0056A1B5 /* ContentView.swift */,
+				6496944124F5576E0056A1B5 /* Views */,
 				6496943324F5575E0056A1B5 /* Assets.xcassets */,
 				6496943824F5575E0056A1B5 /* LaunchScreen.storyboard */,
 				6496943B24F5575E0056A1B5 /* Info.plist */,
@@ -73,6 +93,21 @@
 				6496943624F5575E0056A1B5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6496944124F5576E0056A1B5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6496944624F575080056A1B5 /* NavigationView.swift */,
+				6496944824F5751F0056A1B5 /* WelcomeView.swift */,
+				6496944A24F575360056A1B5 /* WeatherView.swift */,
+				6496944C24F575540056A1B5 /* CardView.swift */,
+				6496944224F557850056A1B5 /* TabBarView.swift */,
+				6496944424F55F260056A1B5 /* TabBarShape.swift */,
+				6496944E24F582210056A1B5 /* RoundedCorner.swift */,
+				6496944F24F582220056A1B5 /* View.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +170,7 @@
 			files = (
 				6496943A24F5575E0056A1B5 /* LaunchScreen.storyboard in Resources */,
 				6496943724F5575E0056A1B5 /* Preview Assets.xcassets in Resources */,
+				6496945324F591E20056A1B5 /* README.md in Resources */,
 				6496943424F5575E0056A1B5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,8 +183,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				6496942E24F5575C0056A1B5 /* AppDelegate.swift in Sources */,
+				6496944D24F575550056A1B5 /* CardView.swift in Sources */,
+				6496945024F582220056A1B5 /* RoundedCorner.swift in Sources */,
 				6496943024F5575C0056A1B5 /* SceneDelegate.swift in Sources */,
+				6496944524F55F260056A1B5 /* TabBarShape.swift in Sources */,
+				6496944324F557850056A1B5 /* TabBarView.swift in Sources */,
+				6496944724F575080056A1B5 /* NavigationView.swift in Sources */,
 				6496943224F5575C0056A1B5 /* ContentView.swift in Sources */,
+				6496944924F5751F0056A1B5 /* WelcomeView.swift in Sources */,
+				6496945124F582220056A1B5 /* View.swift in Sources */,
+				6496944B24F575360056A1B5 /* WeatherView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
